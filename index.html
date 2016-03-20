@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create playlist</title>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="enspex/web/common/spotify_en_tools.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+<body>
+ <div id='content' class="container font-light">
+    <div id='seed' class='centered'>
+        <span>LastFM username:
+            <input title="Username" type="text"  size=34 id="username" name="username" value='Saapasjalka'/>
+        </span>
+        <button value="go" id="go" name="go"> Go </button>
+    </div>
+    <div id="artists"> </div>
+    <div id="info"> </div>
+    <div id="all_results"> </div>
+    <div id='footer'> 
+        <br><br><br>
+        Powered by 
+        <br>
+        <a href="http://developer.echonest.com/docs/v4/playlisting.html"> The Echo Nest playlist API</a> by <a href="http://the.echonest.com">The Echo Nest</a>
+        <br>
+        <a href="https://developer.spotify.com/technologies/widgets/spotify-play-button/">Spotify Playbutton</a> by <a href="http://spotify.com">Spotify</a>
+        <br>
+        <br>
+        Based on
+        <br>
+        <a href="https://github.com/plamere/enspex/tree/master/web/SimplePlaylist">enspex/web/SimplePlaylist at github</a>
+    </div>
+ </div>
+</body>
+
+</html>
+

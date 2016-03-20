@@ -1,0 +1,6 @@
+[submodule "php-last.fm-api"]
+	path = php-last.fm-api
+	url = https://github.com/fxb/php-last.fm-api.git
+[submodule "enspex"]
+	path = enspex
+	url = https://github.com/plamere/enspex.git
