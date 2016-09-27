@@ -1,5 +1,7 @@
 Create a Spotify-playlist from the most listened artists of the last 7 days by a specified LastFM user.
 
+![Example](example.png?raw=true "Example")
+
 Based on https://github.com/plamere/enspex/tree/master/web/SimplePlaylist
 
 Uses PHP LastFM API https://github.com/fxb/php-last.fm-api
